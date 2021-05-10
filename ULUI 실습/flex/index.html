@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+    <style>
+        .wrapper > div {
+            background: #efefef;
+        }
+        .wrapper > div:nth-child(odd) {
+            background: #ddd;
+            padding: 16px;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 16px;
+            grid-row-gap: 16px;
+        }
+        .item1 {
+            grid-column: 1/4;
+        }
+        .item4 {
+            grid-row: 2/5;
+            grid-column: 3/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="item1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque sequi fugit quasi, repellendus debitis alias enim autem cum praesentium voluptatum vero totam atque nemo. Beatae quas soluta similique necessitatibus cupiditate.
+    </div>
+    <div class="item2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quisquam amet minima laborum incidunt reiciendis placeat est eius molestias vero sit nostrum tempore fuga omnis recusandae eum possimus ipsa quod!
+    </div>
+    <div class="item3">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ab mollitia dolorem sit id dolore adipisci ratione quibusdam! Voluptate autem iure consequatur obcaecati dolor aperiam fugit tenetur at est iste?
+    </div>
+    <div class="item4">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit excepturi laborum officiis architecto. In eum, ab laudantium magni et, fuga doloribus quae atque minima beatae voluptate. Totam voluptate eum natus!
+    </div>
+    <div class="item5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quae rerum sed esse voluptatibus, illo sunt totam nisi ipsam reprehenderit nemo consectetur, animi temporibus dolorem inventore delectus assumenda similique optio?
+    </div>
+    <div class="item6">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est nisi fugiat incidunt iusto eligendi ullam perspiciatis facilis! Veritatis omnis excepturi blanditiis quas repudiandae sed necessitatibus tempore veniam, consequatur autem.
+    </div>
+    <div class="item7">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio modi neque nostrum ipsa ad, sunt aspernatur eaque reprehenderit officiis aut nisi expedita quam accusamus perferendis voluptates, vel assumenda asperiores praesentium.
+    </div>
+    <div class="item8">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum incidunt voluptate, cupiditate temporibus ipsam iusto accusamus fugit aperiam saepe, aliquam quasi vitae voluptas. Beatae quos odio, alias modi numquam repellendus.
+    </div>
+    </div>
+</body>
+</html>
